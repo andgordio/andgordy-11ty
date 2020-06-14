@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andgordio/andgordy-11ty"
+  },
+  "author": {
+    "name": "Andriy Gordiyenko",
+    "email": "me@andgordy.com",
+    "url": "https://www.andgordy.com/"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0-beta.3",
+    "luxon": "^1.22.2",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.7"
+  }
+}
